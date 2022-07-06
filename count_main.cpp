@@ -1,7 +1,9 @@
 ﻿// count_main.cpp : Этот файл содержит функцию "main".
 //
 #include "count_Header.h"
+#include <iostream>
 
+#include <string>
 
 
 
@@ -21,7 +23,7 @@ int main()
 		std::cout << "Введите начальное значение счётчика: " << std::endl;
 		std::cin >> initialValue;
 	}
-	Counter count;
+	Counter count{};
 	count.initial(initialValue);
 
 	std::cout << "Enter command (+, -, =, x): ";

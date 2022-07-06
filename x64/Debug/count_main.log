@@ -1,4 +1,6 @@
 ﻿  count_class_counter.cpp
+  count_Header.cpp
   count_main.cpp
   Создание кода...
-  count_main.vcxproj -> C:\Users\newya\source\repos\count_main\x64\Debug\count_main.exe
+  LINK : не найден или не выполнена сборка C:\Users\newya\source\repos\multi02\x64\Debug\count_main.exe при последней инкрементной компоновке; выполняется полная компоновка
+  count_main.vcxproj -> C:\Users\newya\source\repos\multi02\x64\Debug\count_main.exe

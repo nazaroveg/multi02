@@ -1,4 +1,9 @@
 #include "count_Header.h"
+#include <iostream>
+#include <Windows.h>
+#include <string>
+
+
 
 class  Counter;
 

@@ -1,1 +1,2 @@
 C:\Users\newya\source\repos\count_main\x64\Debug\count_main.exe
+C:\Users\newya\source\repos\multi02\x64\Debug\count_main.exe
