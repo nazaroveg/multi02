@@ -1,9 +1,7 @@
 ﻿// count_main.cpp : Этот файл содержит функцию "main".
 //
 #include "count_Header.h"
-#include <iostream>
 
-#include <string>
 
 
 
@@ -11,8 +9,9 @@
 
 int main()
 {
-	setlocale(LC_ALL, "RUS");
-	SetConsoleCP(1251);
+	//setlocale(LC_ALL, "RUS");
+    SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 
 	std::cout << "Вы хотите указать начальное значение счётчика? Введите да или нет: да" << std::endl;
 	std::string read;
@@ -24,7 +23,9 @@ int main()
 		std::cin >> initialValue;
 	}
 	Counter count{};
+	
 	count.initial(initialValue);
+	
 
 	std::cout << "Enter command (+, -, =, x): ";
 	std::string command;

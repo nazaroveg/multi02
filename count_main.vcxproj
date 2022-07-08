@@ -140,7 +140,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="count_class_counter.cpp" />
-    <ClCompile Include="count_Header.cpp" />
     <ClCompile Include="count_main.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -1,24 +1,20 @@
 #include "count_Header.h"
-#include <iostream>
-#include <Windows.h>
-#include <string>
+
 
 
 
 class  Counter;
 
+	
 
 
 
-	void Counter :: print()
+
+void Counter :: print()
 	{
-		std::cout << "òåêóùåå çíà÷åíèå ñ÷¸ò÷èêà = " << present_value << std::endl;
+		std::cout << "Ñ‚ÐµÐºÑƒÑ‰ÐµÐµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ ÑÑ‡Ñ‘Ñ‚Ñ‡Ð¸ÐºÐ° = " << present_value << std::endl;
 	}
-	void Counter:: initial(int initialization_value)
-	{
-
-		present_value = initialization_value;
-	}
+	
 	void Counter:: increment()
 	{
 		present_value++;
@@ -28,7 +24,15 @@ class  Counter;
 		present_value--;
 	}
 
+	void Counter::inital_pres(int present_value)
+	{
+		this->present_value = present_value;
+	}
 
+	void Counter::initial(int pres_val)
+	{
+		inital_pres(pres_val);
+	}
 
 
 	
