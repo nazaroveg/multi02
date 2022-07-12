@@ -1,6 +1,8 @@
 ﻿// count_main.cpp : Этот файл содержит функцию "main".
 //
 #include "count_Header.h"
+#include <iostream>
+#include <Windows.h>
 
 
 
@@ -16,15 +18,19 @@ int main()
 	std::cout << "Вы хотите указать начальное значение счётчика? Введите да или нет: да" << std::endl;
 	std::string read;
 	std::cin >> read;
-	int initialValue = 1;
+	int initialValue = 0;
+	Counter count { 1 };
+
 	if (read == "да" || read == "yes")
 	{
 		std::cout << "Введите начальное значение счётчика: " << std::endl;
 		std::cin >> initialValue;
+		count = (initialValue); 
 	}
-	Counter count{};
 	
-	count.initial(initialValue);
+	
+	
+	
 	
 
 	std::cout << "Enter command (+, -, =, x): ";

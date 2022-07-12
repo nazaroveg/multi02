@@ -1,21 +1,20 @@
-#pragma once
-#include <iostream>
-#include <Windows.h>
-#include <string>
+
+
 
 class Counter 
 {
 public:
 	
 	
+	Counter (int inital) :   present_value(inital) { }
+	
+
 	void print();
-	void initial(int);
+	
 	void increment();
 	void decrement();
 private:
-	int present_value ;  
-	int create_default; 
-	int initialization_value;  
-	void inital_pres(int );
+	int present_value = 0;
+	 
 	
 };

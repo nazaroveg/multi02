@@ -1,11 +1,5 @@
 #include "count_Header.h"
-
-
-
-
-class  Counter;
-
-	
+#include <iostream>
 
 
 
@@ -24,15 +18,7 @@ void Counter :: print()
 		present_value--;
 	}
 
-	void Counter::inital_pres(int present_value)
-	{
-		this->present_value = present_value;
-	}
 
-	void Counter::initial(int pres_val)
-	{
-		inital_pres(pres_val);
-	}
 
 
 	
